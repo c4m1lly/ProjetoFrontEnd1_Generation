@@ -1,130 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Projeto Portfólio">
-		<meta name="author" content="Generation Brasil">
-		<meta name="keywords" content="HTML, CSS, JavaScript">
-		<title>Meu Perfil</title>
-	</head>
-	<body>
-		<!-- Cabeçalho da Página (header) -->
-		<header>
-			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
-				<!-- Titulo do Cabeçalho -->
-				<div id="titulo">
-					<!-- Seu nome -->
-					<h1>Portfólio de Carreira </h1>
-				</div>
 
-				<!-- Conteudo do Menu da Página (header) -->
-				<div id="menu">
-					<!-- Menu da Página -->
-					<nav>
-						<!-- Marcadores não ordenados + links -->
-						<ul id="menu">
-							<li>
-								<a href="index.html"> Home </a>
-							</li>
-							<li>
-								<a href="contato.html"> Contato </a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Projeto Portfólio">
+	<meta name="author" content="Generation Brasil">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<title>Portfólio de Carreira</title>
+	<link rel="stylesheet" href="style.css">
 
-		<!-- Seção Principal da Página (main) -->
-		<main>
+</head>
 
-			<!-- Seção Sobre você -->
-			<section id="about">
+<body>
+	<!-- Cabeçalho da Página (header) -->
+	<header>
+		<!-- Div Conteudo do Cabeçalho -->
+		<div id="header_content">
+			<!-- Titulo do Cabeçalho -->
+				<!-- Seu nome -->
+				<h1>Portfólio de Carreira</h1>
 
-				<!-- Título da Seção -->
-				<h2>Sobre mim</h2>
+			<!-- Menu da Página -->
+			<nav id="menu">
+				<!-- Marcadores não ordenados + links -->
+				<ul>
+					<li>
+						<a href="index.html"> Home </a>
+					</li>
+					<li>
+						<a href="contato.html"> Contato </a>
+					</li>
+				</ul>
+			</nav>
 
-				<!-- Conteúdo da Seção -->
-				<div id="conteudo">
 
+	</header>
+
+	<!-- Seção Principal da Página (main) -->
+	<main>
+
+		<!-- Seção Sobre você -->
+		<section id="about">
+
+			<!-- Título da Seção -->
+			<h2>Sobre mim</h2>
+
+			<!-- Conteúdo da Seção -->
+			<div id="conteudo">
+
+				<div class="circular">
 					<!-- Imagem do criador do conteúdo -->
-					<img
-						src="https://media.licdn.com/dms/image/v2/D4D03AQHOsfDMPJyHng/profile-displayphoto-shrink_800_800/B4DZOb96mwG4Ag-/0/1733488520142?e=1744243200&v=beta&t=LfJIGdNkmA-NGu8MTGOqgeG4_hBV0zw77si159_D16k"
-						alt="Foto do criador desse conteudo"
-					/>
-
-					<!-- Texto sobre o criador do conteúdo -->
-					<article id="sobre_texto">
-						<p>
-							Estudante de Engenharia de Software | Desenvolvedora Fullstack | Apaixonada por Inovação
-
-Sou entusiasta de tecnologia, sempre em busca de como ela pode transformar a interação humana e resolver problemas do dia a dia. Com foco em me tornar uma Desenvolvedora Fullstack, também me dedico ao UX/UI Design para criar experiências incríveis.
-
-Estou em constante evolução, combinando aprendizado autodidata com cursos em HTML, CSS, JavaScript, React, Spring Boot, API REST e Security para expandir minhas habilidades e construir soluções robustas.
-
-Movida pela curiosidade e pela busca constante por inovação, estou em busca de oportunidades para aplicar meu conhecimento e colaborar em projetos que impactem positivamente as pessoas e o mercado.
-						</p>
-                           <p>
-							Durante o curso da Generation, tenho me dedicado ao aprendizado e aplicação de Spring Framework e Java, em projetos de desenvolvimento de APIs REST e back-end. Durante esse processo, abordei diversos conceitos fundamentais, como:
-Lógica de Programação e Estruturas de Dados, essenciais para a construção de algoritmos eficientes e a manipulação adequada de informações.
-Programação Orientada a Objetos (POO), que me permitiu criar sistemas modulares e reutilizáveis.
-Implementação de CRUD completo (Create, Read, Update, Delete) em projetos práticos, incluindo um blog pessoal, onde usei Spring Boot como framework para desenvolvimento da API.
-Integração com bancos de dados usando JPA e Hibernate (com MySQL e PostgreSQL), além de adotar práticas de segurança com JWT para autenticação.
-Testes automatizados com JUnit e criação de documentação interativa usando Swagger para garantir a qualidade e usabilidade das APIs.
-Deploy e Dockerização, permitindo que os projetos fossem executados de forma consistente e preparada para o ambiente de produção.
-
-Além dos desafios técnicos, essa jornada me proporcionou um grande desenvolvimento de soft skills, como resolução de problemas, colaboração em equipe e gestão de tempo, fundamentais para o sucesso em projetos de desenvolvimento ágil.
-						</p>
-					</article>
-				</div>
-			</section>
-
-			<!-- Seção contendo um vídeo de sua preferência -->
-			<section id="video">
-				
-				<!-- Título da Seção -->
-				<h2>Meu vídeo favorito:</h2>
-
-				<!-- Vídeo da Seção -->
-				<div class="youtube">
-					<iframe
-						width="560"
-						height="315"
-						src="https://www.youtube.com/embed/Z3_mtwMMuGI?si=F1QiiDYSfsPG3nF0"
-						frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
+					<img src="https://media.licdn.com/dms/image/v2/D4D03AQHOsfDMPJyHng/profile-displayphoto-shrink_800_800/B4DZOb96mwG4Ag-/0/1733488520142?e=1744243200&v=beta&t=LfJIGdNkmA-NGu8MTGOqgeG4_hBV0zw77si159_D16k"
+						alt="Foto do criador desse conteudo" />
 				</div>
 
-			</section>
+				<!-- Texto sobre o criador do conteúdo -->
+				<article id="sobre_texto">
+					<p>
+						Estudante de Engenharia de Software | Desenvolvedora Fullstack | Apaixonada por Inovação
 
-		</main>
+						Sou entusiasta de tecnologia, sempre em busca de como ela pode transformar a interação humana e
+						resolver problemas do dia a dia. Com foco em me tornar uma Desenvolvedora Fullstack, também me
+						dedico ao UX/UI Design para criar experiências incríveis.
+
+						Estou em constante evolução, combinando aprendizado autodidata com cursos em HTML, CSS,
+						JavaScript, React, Spring Boot, API REST e Security para expandir minhas habilidades e construir
+						soluções robustas.
+
+						Movida pela curiosidade e pela busca constante por inovação, estou em busca de oportunidades
+						para aplicar meu conhecimento e colaborar em projetos que impactem positivamente as pessoas e o
+						mercado.
+					</p>
+					<p>
+						Durante o curso da Generation, tenho me dedicado ao aprendizado e aplicação de Spring Framework
+						e Java, em projetos de desenvolvimento de APIs REST e back-end. Durante esse processo, abordei
+						diversos conceitos fundamentais, como:
+						Lógica de Programação e Estruturas de Dados, essenciais para a construção de algoritmos
+						eficientes e a manipulação adequada de informações.
+						Programação Orientada a Objetos (POO), que me permitiu criar sistemas modulares e reutilizáveis.
+						Implementação de CRUD completo (Create, Read, Update, Delete) em projetos práticos, incluindo um
+						blog pessoal, onde usei Spring Boot como framework para desenvolvimento da API.
+						Integração com bancos de dados usando JPA e Hibernate (com MySQL e PostgreSQL), além de adotar
+						práticas de segurança com JWT para autenticação.
+						Testes automatizados com JUnit e criação de documentação interativa usando Swagger para garantir
+						a qualidade e usabilidade das APIs.
+						Deploy e Dockerização, permitindo que os projetos fossem executados de forma consistente e
+						preparada para o ambiente de produção.
+
+						Além dos desafios técnicos, essa jornada me proporcionou um grande desenvolvimento de soft
+						skills, como resolução de problemas, colaboração em equipe e gestão de tempo, fundamentais para
+						o sucesso em projetos de desenvolvimento ágil.
+					</p>
+				</article>
+			</div>
+		</section>
+
+		<!-- Seção contendo um vídeo de sua preferência -->
+		<section id="video">
+
+			<!-- Título da Seção -->
+			<h2>Meu vídeo favorito:</h2>
+
+			<!-- Vídeo da Seção -->
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Z3_mtwMMuGI?si=F1QiiDYSfsPG3nF0"
+					frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+
+		</section>
+
+	</main>
 
 	<!-- Rodapé da Página (footer) -->
-    <footer>
+	<footer>
 
-        <!-- Seção de Contato - Redes Sociais-->
-        <section id="redes_sociais">
+		<!-- Seção de Contato - Redes Sociais-->
+		<section id="redes_sociais">
 
-                <a href="">
-                    <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                </a>
-                <a href="">
-                    <img src="assets/img/github.svg" alt="Github" />
-                </a>
-                <a href="">
-                    <img src="assets/img/instagram.svg" alt="Instagram" />
-                </a>
+			<a href="">
+				<img src="assets/img/linkedin.svg" alt="LinkedIn" />
+			</a>
+			<a href="">
+				<img src="assets/img/github.svg" alt="Github" />
+			</a>
+			<a href="">
+				<img src="assets/img/instagram.svg" alt="Instagram" />
+			</a>
 
-        </section>
+		</section>
 
-        <h3>
-            Feito com 🧡 por Camilly da Silva Cunha - 2025
-        </h3>
+		<h3>
+			Feito com 🧡 por Camilly da Silva Cunha - 2025
+		</h3>
 
-    </footer>
+	</footer>
 </body>
+
 </html>
